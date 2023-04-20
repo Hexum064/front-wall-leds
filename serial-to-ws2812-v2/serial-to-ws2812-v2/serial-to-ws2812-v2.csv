@@ -1,0 +1,15 @@
+Comment,Designator,Footprint,JLCPCB Part #?optional?,Value
+Device:C_Small,C1,Capacitor_SMD:C_0603_1608Metric,,0.1uF
+Device:C_Small,"C2, C4",Capacitor_SMD:C_0805_2012Metric,,22uF
+Device:C_Small,C3,Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,22uF
+Device:C_Small,"C5, C6",Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder,,0.1uF
+Device:LED_Small,"D1, D2",LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder,C165982,LED_Small
+Device:L_Small,L1,Inductor_SMD:L_1008_2520Metric,C161085,3.3uH
+Device:R_Small,R1,Resistor_SMD:R_0603_1608Metric,,56.2k
+Device:R_Small,"R2, R4",Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,,1k
+Device:R_Small,R3,Resistor_SMD:R_0603_1608Metric,,10k
+Switch:SW_DIP_x04,SW1,Button_Switch_SMD:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W8.61mm_P2.54mm_LowProfile,C2842911,SW_DIP_x04
+Regulator_Linear:AP7333-33SAG-7,U1,Package_TO_SOT_SMD:SOT-23,C150746,AP7333-33SAG-7
+diodes-inc-switching-reg:AP62300,U2,Package_TO_SOT_SMD:TSOT-23-6,C1883519,AP62300
+556-ATXMEGA16E5-MUR,U3,Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.3x3.3mm,C108448,556-ATXMEGA16E5-MUR
+Logic_LevelTranslator:SN74LV1T34DBV,U4,Package_TO_SOT_SMD:SOT-23-5,C100024,SN74LV1T34DBV

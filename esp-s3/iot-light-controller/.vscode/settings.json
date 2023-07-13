@@ -1,0 +1,17 @@
+{
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "idf.adapterTargetName": "esp32s3",
+    "idf.customExtraPaths": "m:\\esp-idf-extension\\tools\\xtensa-esp-elf-gdb\\11.2_20220823\\xtensa-esp-elf-gdb\\bin;m:\\esp-idf-extension\\tools\\riscv32-esp-elf-gdb\\11.2_20220823\\riscv32-esp-elf-gdb\\bin;m:\\esp-idf-extension\\tools\\xtensa-esp32-elf\\esp-2022r1-11.2.0\\xtensa-esp32-elf\\bin;m:\\esp-idf-extension\\tools\\xtensa-esp32s2-elf\\esp-2022r1-11.2.0\\xtensa-esp32s2-elf\\bin;m:\\esp-idf-extension\\tools\\xtensa-esp32s3-elf\\esp-2022r1-11.2.0\\xtensa-esp32s3-elf\\bin;m:\\esp-idf-extension\\tools\\riscv32-esp-elf\\esp-2022r1-11.2.0\\riscv32-esp-elf\\bin;m:\\esp-idf-extension\\tools\\esp32ulp-elf\\2.35_20220830\\esp32ulp-elf\\bin;m:\\esp-idf-extension\\tools\\cmake\\3.24.0\\bin;m:\\esp-idf-extension\\tools\\openocd-esp32\\v0.11.0-esp32-20221026\\openocd-esp32\\bin;m:\\esp-idf-extension\\tools\\ninja\\1.10.2;m:\\esp-idf-extension\\tools\\idf-exe\\1.0.3;m:\\esp-idf-extension\\tools\\ccache\\4.6.2\\ccache-4.6.2-windows-x86_64;m:\\esp-idf-extension\\tools\\dfu-util\\0.9\\dfu-util-0.9-win64;m:\\esp-idf-extension\\tools\\esp-rom-elfs\\20220823",
+    "idf.customExtraVars": {
+        "OPENOCD_SCRIPTS": "m:\\esp-idf-extension\\tools\\openocd-esp32\\v0.11.0-esp32-20221026/openocd-esp32/share/openocd/scripts",
+        "IDF_CCACHE_ENABLE": "1",
+        "ESP_ROM_ELF_DIR": "m:\\esp-idf-extension\\tools\\esp-rom-elfs\\20220823/"
+    },
+    "idf.espIdfPathWin": "m:\\esp-idf",
+    "idf.openOcdConfigs": [
+        "board/esp32s3-bridge.cfg"
+    ],
+    "idf.portWin": "COM11",
+    "idf.pythonBinPathWin": "m:\\esp-idf-extension\\python_env\\idf5.0_py3.8_env\\Scripts\\python.exe",
+    "idf.toolsPathWin": "m:\\esp-idf-extension"
+}

@@ -24,9 +24,9 @@ Discarded input sections
                 0x0000000000000000        0xa build/Release/debug/_ext/1472/main.o
  .text.generate_test_data
                 0x0000000000000000       0x24 build/Release/debug/_ext/1472/main.o
- .text.generate_4thOfJuly_pattern
-                0x0000000000000000       0x74 build/Release/debug/_ext/1472/main.o
  .text.generate_Halloween_pattern
+                0x0000000000000000       0x4c build/Release/debug/_ext/1472/main.o
+ .text.generate_Christmas_pattern
                 0x0000000000000000       0x4c build/Release/debug/_ext/1472/main.o
  .data.test_table
                 0x0000000000000000        0x8 build/Release/debug/_ext/1472/main.o
@@ -383,10 +383,10 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000     0x22f4
+.debug_info     0x0000000000000000     0x22f5
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000     0x1410 C:/Program Files/Microchip/xc8/v2.31/dfp/xc8/avr/lib/avrxmega3/short-calls/crtattiny412.o
- .debug_info    0x0000000000001410      0xee4 build/Release/debug/_ext/1472/main.o
+ .debug_info    0x0000000000001410      0xee5 build/Release/debug/_ext/1472/main.o
 
 .debug_abbrev   0x0000000000000000     0x1532
  *(.debug_abbrev)
@@ -448,82 +448,82 @@ LOAD data_init
  .bss.offset    0x0000000000803f00        0x1 build/Release/debug/_ext/1472/main.o
                 0x0000000000803f00                offset
 
-.text.generate_Christmas_pattern
-                0x000000000000008a       0x4c
- .text.generate_Christmas_pattern
-                0x000000000000008a       0x4c build/Release/debug/_ext/1472/main.o
-                0x000000000000008a                generate_Christmas_pattern
+.text.generate_4thOfJuly_pattern
+                0x000000000000008a       0x74
+ .text.generate_4thOfJuly_pattern
+                0x000000000000008a       0x74 build/Release/debug/_ext/1472/main.o
+                0x000000000000008a                generate_4thOfJuly_pattern
 
-.text.main      0x00000000000000d6       0x3c
- .text.main     0x00000000000000d6       0x3c build/Release/debug/_ext/1472/main.o
-                0x00000000000000d6                main
+.text.main      0x00000000000000fe       0x3c
+ .text.main     0x00000000000000fe       0x3c build/Release/debug/_ext/1472/main.o
+                0x00000000000000fe                main
 
 .text.transmit_single_color
-                0x0000000000000112       0x2e
+                0x000000000000013a       0x2e
  .text.transmit_single_color
-                0x0000000000000112       0x2e build/Release/debug/_ext/1472/main.o
-                0x0000000000000112                transmit_single_color
+                0x000000000000013a       0x2e build/Release/debug/_ext/1472/main.o
+                0x000000000000013a                transmit_single_color
 
 .text.transmit_single_led
-                0x0000000000000140       0x2c
+                0x0000000000000168       0x2c
  .text.transmit_single_led
-                0x0000000000000140       0x2c build/Release/debug/_ext/1472/main.o
-                0x0000000000000140                transmit_single_led
+                0x0000000000000168       0x2c build/Release/debug/_ext/1472/main.o
+                0x0000000000000168                transmit_single_led
 
 .text.transmit_one_light
-                0x000000000000016c       0x2c
+                0x0000000000000194       0x2c
  .text.transmit_one_light
-                0x000000000000016c       0x2c build/Release/debug/_ext/1472/main.o
-                0x000000000000016c                transmit_one_light
+                0x0000000000000194       0x2c build/Release/debug/_ext/1472/main.o
+                0x0000000000000194                transmit_one_light
 
 .text.init_usart
-                0x0000000000000198       0x22
+                0x00000000000001c0       0x22
  .text.init_usart
-                0x0000000000000198       0x22 build/Release/debug/_ext/1472/main.o
-                0x0000000000000198                init_usart
+                0x00000000000001c0       0x22 build/Release/debug/_ext/1472/main.o
+                0x00000000000001c0                init_usart
 
 .text.transmit_led_count
-                0x00000000000001ba       0x20
+                0x00000000000001e2       0x20
  .text.transmit_led_count
-                0x00000000000001ba       0x20 build/Release/debug/_ext/1472/main.o
-                0x00000000000001ba                transmit_led_count
+                0x00000000000001e2       0x20 build/Release/debug/_ext/1472/main.o
+                0x00000000000001e2                transmit_led_count
 
-.text.init_clk  0x00000000000001da       0x10
+.text.init_clk  0x0000000000000202       0x10
  .text.init_clk
-                0x00000000000001da       0x10 build/Release/debug/_ext/1472/main.o
-                0x00000000000001da                init_clk
+                0x0000000000000202       0x10 build/Release/debug/_ext/1472/main.o
+                0x0000000000000202                init_clk
 
 .text.transmit_warm_white
-                0x00000000000001ea        0xa
+                0x0000000000000212        0xa
  .text.transmit_warm_white
-                0x00000000000001ea        0xa build/Release/debug/_ext/1472/main.o
-                0x00000000000001ea                transmit_warm_white
+                0x0000000000000212        0xa build/Release/debug/_ext/1472/main.o
+                0x0000000000000212                transmit_warm_white
 
-.text           0x00000000000001f4        0x2
- .text          0x00000000000001f4        0x2 C:/Program Files/Microchip/xc8/v2.31/dfp/xc8/avr/lib/avrxmega3/short-calls/crtattiny412.o
-                0x00000000000001f4                __vector_22
-                0x00000000000001f4                __vector_1
-                0x00000000000001f4                __vector_24
-                0x00000000000001f4                __vector_12
-                0x00000000000001f4                __bad_interrupt
-                0x00000000000001f4                __vector_6
-                0x00000000000001f4                __vector_3
-                0x00000000000001f4                __vector_23
-                0x00000000000001f4                __vector_25
-                0x00000000000001f4                __vector_11
-                0x00000000000001f4                __vector_13
-                0x00000000000001f4                __vector_17
-                0x00000000000001f4                __vector_19
-                0x00000000000001f4                __vector_7
-                0x00000000000001f4                __vector_5
-                0x00000000000001f4                __vector_4
-                0x00000000000001f4                __vector_9
-                0x00000000000001f4                __vector_2
-                0x00000000000001f4                __vector_21
-                0x00000000000001f4                __vector_15
-                0x00000000000001f4                __vector_8
-                0x00000000000001f4                __vector_14
-                0x00000000000001f4                __vector_10
-                0x00000000000001f4                __vector_16
-                0x00000000000001f4                __vector_18
-                0x00000000000001f4                __vector_20
+.text           0x000000000000021c        0x2
+ .text          0x000000000000021c        0x2 C:/Program Files/Microchip/xc8/v2.31/dfp/xc8/avr/lib/avrxmega3/short-calls/crtattiny412.o
+                0x000000000000021c                __vector_22
+                0x000000000000021c                __vector_1
+                0x000000000000021c                __vector_24
+                0x000000000000021c                __vector_12
+                0x000000000000021c                __bad_interrupt
+                0x000000000000021c                __vector_6
+                0x000000000000021c                __vector_3
+                0x000000000000021c                __vector_23
+                0x000000000000021c                __vector_25
+                0x000000000000021c                __vector_11
+                0x000000000000021c                __vector_13
+                0x000000000000021c                __vector_17
+                0x000000000000021c                __vector_19
+                0x000000000000021c                __vector_7
+                0x000000000000021c                __vector_5
+                0x000000000000021c                __vector_4
+                0x000000000000021c                __vector_9
+                0x000000000000021c                __vector_2
+                0x000000000000021c                __vector_21
+                0x000000000000021c                __vector_15
+                0x000000000000021c                __vector_8
+                0x000000000000021c                __vector_14
+                0x000000000000021c                __vector_10
+                0x000000000000021c                __vector_16
+                0x000000000000021c                __vector_18
+                0x000000000000021c                __vector_20

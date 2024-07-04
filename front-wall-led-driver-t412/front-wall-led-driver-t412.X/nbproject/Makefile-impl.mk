@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=t412-LED-test-driver.X
+PROJECTNAME=front-wall-led-driver-t412.X
 
 # Active Configuration
 DEFAULTCONF=Release

@@ -162,6 +162,62 @@ void generate_4thOfJuly_pattern()
 	
 }
 
+void generate_Halloween_pattern()
+{
+
+	transmit_led_count();
+	
+	for (uint8_t i = 0; i < LIGHTS; i++)
+	{
+        if ((i+offset)%2)
+        {
+            transmit_one_light(128,26,0); //ORANGE
+        }
+        else
+        {
+            transmit_one_light(8,64,0); //GREEN
+        }
+    }
+    
+    if (offset)
+    {
+        offset = 0;
+    }
+    else
+    {
+        offset = 1;
+    }
+}
+
+
+
+void generate_Christmas_pattern()
+{
+
+	transmit_led_count();
+	
+	for (uint8_t i = 0; i < LIGHTS; i++)
+	{
+        if ((i+offset)%2)
+        {
+            transmit_one_light(128,0,0); //RED
+        }
+        else
+        {
+            transmit_one_light(0,128,0); //GREEN
+        }
+    }
+    
+    if (offset)
+    {
+        offset = 0;
+    }
+    else
+    {
+        offset = 1;
+    }
+}
+
 void transmit_warm_white()
 {
 	transmit_single_color(255, 142, 33); //2100K
@@ -188,7 +244,7 @@ int main(void)
     while (1) 
     {
 		PORTA.OUTTGL = PIN1_bm;
-		if (test)
+		if ((PORTA.IN & PIN7_bm))
 		{
 			generate_4thOfJuly_pattern();
 		}
